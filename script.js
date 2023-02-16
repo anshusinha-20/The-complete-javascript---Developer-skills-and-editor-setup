@@ -28,15 +28,15 @@
 // § Data2:[12,5,-5,0,4]
 // GOOD LUCK 😀
 
-const printForecast = (arr) => {
-  let finalMessage = "";
-  for (let i = 1; i <= arr.length; i++) {
-    finalMessage += `... ${arr[i - 1]}\u00B0C in ${i} days `; // \u00B0 is the unicode for degree symbol in javascript
-  }
-  console.log(finalMessage + "...");
-};
+// const printForecast = (arr) => {
+//   let finalMessage = "";
+//   for (let i = 1; i <= arr.length; i++) {
+//     finalMessage += `... ${arr[i - 1]}\u00B0C in ${i} days `; // \u00B0 is the unicode for degree symbol in javascript
+//   }
+//   console.log(finalMessage + "...");
+// };
 
-const arr1 = [17, 21, 23];
-const arr2 = [12, 5, -5, 0, 4];
-printForecast(arr1);
-printForecast(arr2);
+// const arr1 = [17, 21, 23];
+// const arr2 = [12, 5, -5, 0, 4];
+// printForecast(arr1);
+// printForecast(arr2);
